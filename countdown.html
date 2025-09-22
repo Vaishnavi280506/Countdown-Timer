@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="countdown.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>Countdown<br>Timer</span>
+        </div>
+        
+        <!-- First Page: Input Page -->
+        <div id="input-page" class="page active">
+            <h1>Create Your Countdown</h1>
+            
+            <div class="input-group">
+                <label for="target-date">Target Date</label>
+                <input type="date" id="target-date" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="target-time">Target Time</label>
+                <input type="time" id="target-time" required>
+            </div>
+            
+            <button id="start-btn">Start Countdown</button>
+        </div>
+        
+        <!-- Second Page: Countdown Page -->
+        <div id="countdown-page" class="page">
+            <h1>Countdown Timer</h1>
+            
+            <div class="countdown">
+                <div class="time-unit">
+                    <div class="time-value" id="days">00</div>
+                    <div class="time-label">Days</div>
+                </div>
+                
+                <div class="time-unit">
+                    <div class="time-value" id="hours">00</div>
+                    <div class="time-label">Hours</div>
+                </div>
+                
+                <div class="time-unit">
+                    <div class="time-value" id="minutes">00</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                
+                <div class="time-unit">
+                    <div class="time-value" id="seconds">00</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+            
+            <div class="message" id="message"></div>
+            
+            <button id="new-timer-btn" class="new-timer-btn">Set a New Timer</button>
+        </div>
+    </div>
+    <script src="countdown.js"></script>
+</body>
+</html>

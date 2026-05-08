@@ -1,6 +1,11 @@
-# Countdown Timer
+<img width="1897" height="902" alt="image" src="https://github.com/user-attachments/assets/dd55bbe0-98c3-4e3c-b904-25b2fcf8badf" /># Countdown Timer
 
 A real-time countdown timer built with HTML, CSS, and JavaScript — tracks days, hours, minutes, and seconds to any target date.
+
+## Preview
+
+![Countdown Timer Preview](preview.png)
+
 
 ## What I focused on
 
